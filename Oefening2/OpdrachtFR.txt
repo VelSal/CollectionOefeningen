@@ -1,4 +1,5 @@
-﻿Ecrivez une application qui gère les voitures d'un concessionnaire de voitures d'occasion.
+﻿
+Ecrivez une application qui gère les voitures d'un concessionnaire de voitures d'occasion.
 Le concessionnaire a une adresse, un certain montant en caisse et des voitures.
 Chaque voiture a un numéro d'immatriculation, une marque et un prix.
 
