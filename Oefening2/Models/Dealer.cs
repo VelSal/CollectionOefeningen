@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Oefening2.Models
 {
+    
     public class Dealer
     {
         private string _address = "Rouppeplein 16, 1000 Brussel";
         private double _moneyInAccount = 473491.0;
-        public int carsAvailable;
+        private int _carsAvailable;
 
         public string Address 
         {
@@ -19,6 +20,7 @@ namespace Oefening2.Models
         public double MoneyInAccount
         { 
             get { return _moneyInAccount; }
+            set { value = _moneyInAccount; }
         }
     }
 }
