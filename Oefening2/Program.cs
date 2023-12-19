@@ -18,9 +18,12 @@ namespace Oefening2
             Car.AddCar(cars, new Car(TypeOfCar.Truck.ToString(), "ABC-123", "Scania", 45236.00));
             Car.AddCar(cars, new Car(TypeOfCar.Car.ToString(), "DEF-456", "BMW", 58632.00));
             Car.AddCar(cars, new Car(TypeOfCar.Truck.ToString(), "XYZ-789", "Daf", 48632.00));
+            Car.AddCar(cars, new Car(TypeOfCar.Truck.ToString(), "TGV-667", "Iveco", 57869.00));
             Car.AddCar(cars, new Car(TypeOfCar.Car.ToString(), "QLF-007", "Volkswagen", 15478.00));
 
-            Car.ShowCars(cars);
+            Car.SellCar(cars, 0);
+
+            Car.ShowInfos(cars);
 
             Console.ReadLine();
             

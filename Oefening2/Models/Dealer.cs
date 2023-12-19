@@ -16,11 +16,19 @@ namespace Oefening2.Models
         public string Address 
         {
             get { return _address; }
+            set { _address = value; }
         }
         public double MoneyInAccount
         { 
             get { return _moneyInAccount; }
-            set { value = _moneyInAccount; }
+            set { _moneyInAccount = value; }
         }
+
+        //public Dealer(string address, double moneyInAccount)
+        //{
+        //    this.Address = address;
+        //    this.MoneyInAccount = moneyInAccount;
+        //}
+
     }
 }
