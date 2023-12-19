@@ -1,0 +1,25 @@
+﻿Ecrivez une application qui gère les voitures d'un concessionnaire de voitures d'occasion.
+Le concessionnaire a une adresse, un certain montant en caisse et des voitures.
+Chaque voiture a un numéro d'immatriculation, une marque et un prix.
+
+Le concessionnaire doit disposer d'une méthode pour ajouter des voitures et d'une méthode pour en vendre. 
+Lorsqu'une voiture est vendue, elle est retirée du concessionnaire et son prix est ajouté à la caisse.
+Créez également une méthode permettant au concessionnaire de renvoyer le prix total de toutes les voitures. 
+Les camions seraient également disponibles avec une caractéristique supplémentaire pour la capacité de chargement.
+
+Créez les données de test nécessaires pour tester l'application.
+Un exemple de ce à quoi l'application pourrait ressembler :
+		
+
+		=== DEALERSHIP ===
+		Location: Rouppeplein 16, 1000 Brussel
+
+		==> Type: Truck with plate number: VFU-736 => Brand: Scania (95569€)
+		==> Type: Car with plate number: LOP-317 => Brand: BMW (98280€)
+		==> Type: Truck with plate number: MNM-333 => Brand: Volvo (39451€)
+		==> Type: Car with plate number: JHV-944 => Brand: Volvo (98712€)
+		==> Type: Truck with plate number: LCB-878 => Brand: Volvo (780141€)
+
+		There is 5 vehicles in the dealership.
+		The car dealer has 473491€ in the cash registery.
+		The total price of all cars is 410026€.
