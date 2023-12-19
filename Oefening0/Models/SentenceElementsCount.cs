@@ -40,7 +40,6 @@ namespace Oefening0.Models
             string[] stringSeparators = new string[] { };
             string[] stringArray;
             stringArray = userSentenceInput.Split(stringSeparators, StringSplitOptions.RemoveEmptyEntries);
-
             return stringArray.Length;
         }
 
